@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.csss">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -12,18 +12,19 @@
             <div class="firstplace">
                 <img src="Developer.jpeg" alt="" class="Dev">
             </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="index.html">Contact</a></li>
-                    <li><a href="index.html">Career</a></li>
-                </ul>
-            </nav>    
-            </div>
+                <nav>
+                        <ul>
+                            <li class="Home"><a href="index.html">Home</a></li>
+                            <li class="About"><a href="index.html">About</a></li>
+                            <li class="Contact"><a href="index.html">Contact</a></li>
+                            <li class="Career"><a href="index.html">Career</a></li>
+                        </ul>
+                </nav>  
+             
+        
             <div class="third-place">
                 <form action="what">
-                <label for="option">select an option</label>
+                <label for="option">What we do</label>
                 <select name="options" id="options">
                     <option value="Dashboard">Dashboard</option>
                     <option value="Buy Data">Buy Data</option>
@@ -39,6 +40,12 @@
                 <h3>Samgold</h3>
                 <p class="welcome"><span>Welcome!</span>To My Website</p>
                 <p>Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Pariatur dolorum, reprehenderit <br> minus officiis temporibus tenetur cum velit facere quaerat maxime ut nesciunt quo exercitationem aperiam iusto iure sapiente? Maiores, corrupti!</p>
+                <div class="iconcontainer">
+                <img src="instagramicon.png" alt="insta" class="insta-icon">
+                <img src="facebookicon.png" alt="" class="facebookicon">
+                <img src="githubicon.png" alt="" class="giticon">
+                <img src="twittericon.png" alt="" class="twittericon">
+                </div>
             </div>
             <div class="middle">
                 <h1>Sign in</h1>
@@ -51,7 +58,11 @@
                     <div class="input-text">
                         <label for="sign in">Password</label>
                         <input type="password" id="password" placeholder="password" class="password">
-                        <i class='bx bx-envelope bx-spin bx-rotate-90'></i>
+                        <i class='bx bx-lock-alt'></i>
+                    </div>
+                    <button type="submit" class="sign up">Sign up</button>
+                    <div class="logreg">
+                        <p>Already have an account? <a href="$">Sign up</a></p>
                     </div>
 
                 </form>
