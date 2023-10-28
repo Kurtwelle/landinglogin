@@ -12,6 +12,9 @@
     background-color: aqua;
     background-size: cover;
     padding: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .heading{
@@ -78,10 +81,14 @@ nav ul li{
 .card{
     /* background-image: url(CLIFF.jpg); */
     background-size: cover;
-    background-position: 1em;
     display:flex;
-    backdrop-filter: blur(40px);
+    backdrop-filter: blur(10px);
+    height: 100%;
+    width: 600px;
     /* color: #ffffff; */
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 .topcontent{
     display: flex;
@@ -90,21 +97,30 @@ nav ul li{
     align-items: center;
     margin-bottom: 20px;
     padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    border: 3px solid;
 }
 h3{
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
     margin-left: -440px;
+    position: relative;
+    top: 30px;
+    bottom: ;
 }
+
+
 
 p{
     align-items: center;
     align-content: center;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 200;
     font-family: 'Times New Roman', Times, serif;
     justify-content: center;
+    text-align:center;
 }
 .iconcontainer{
     display: flex;
@@ -133,3 +149,15 @@ p{
     margin-left: 10px;
     cursor: pointer;
 }
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 3px solid;
+    border-radius: 20px;
+}
+
