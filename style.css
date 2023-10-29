@@ -4,9 +4,14 @@
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+body{
+    margin: 0;
+    padding: 0;
+
+}
 .container{
     background: linear-gradient rgba( to top #fefefe, #000000, orange);
-    height: 500%;
+    height: 100vh;
     width: 100%;
     background-image: url(CLIFF.jpg);
     background-color: aqua;
@@ -83,11 +88,12 @@ nav ul li{
     background-size: cover;
     display:flex;
     backdrop-filter: blur(10px);
-    height: 100%;
+    height: 350px;
     width: 600px;
     /* color: #ffffff; */
     justify-content: center;
     align-content: center;
+    
 }
 .topcontent{
     display: flex;
@@ -159,4 +165,3 @@ p{
     border: 3px solid;
     border-radius: 20px;
 }
-
