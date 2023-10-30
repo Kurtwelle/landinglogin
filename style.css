@@ -13,10 +13,10 @@ body{
     background: linear-gradient rgba( to top #fefefe, #000000, orange);
     height: 100vh;
     width: 100%;
-    background-image: url(CLIFF.jpg);
-    background-color: aqua;
+    /* background-image: url(CLIFF.jpg); */
+    background-color: #000000;
     background-size: cover;
-    padding: 10px;
+    padding: 0px;
     align-items: center;
     justify-content: center;
     align-content: center;
@@ -27,6 +27,11 @@ body{
     flex-direction: row;
     margin-bottom: 30px;
     position: relative;
+    background-color: #d1cfcf;
+}
+:hover.heading{
+    background-color: skyblue;
+    transition: 5;
 }
 .Dev{
     height: 50px;
@@ -63,7 +68,7 @@ nav ul li{
 }
 
 .third-place{
-    margin-left: 500px;
+    margin-left: 800px;
     width: auto;
     height: 45px;
     background-color: green;
@@ -76,6 +81,7 @@ nav ul li{
     border: 2px solid;
     width: 30px;
 }
+
 #options{
     background-color: #055522;
     color: #ffffff;
@@ -83,18 +89,23 @@ nav ul li{
     height: 40px;
     border-radius: 5px;
 }
+
 .card{
     /* background-image: url(CLIFF.jpg); */
     background-size: cover;
     display:flex;
-    backdrop-filter: blur(10px);
-    height: 350px;
-    width: 600px;
-    /* color: #ffffff; */
+    background: grey;
+    height: 400px;
+    width: 800px;
+    margin-left: 30%;
+    margin-top: 100px;
     justify-content: center;
     align-content: center;
-    
+    border: 2px  solid;
+    border-color: #fefefe;
+    border-radius: 20px;
 }
+
 .topcontent{
     display: flex;
     flex-direction: column;
@@ -102,20 +113,31 @@ nav ul li{
     align-items: center;
     margin-bottom: 20px;
     padding: 10px;
-    width: 100%;
-    border-radius: 20px;
-    border: 3px solid;
+    width: 100%; 
+    font-size: 25px;
 }
+
 h3{
-    font-size: 40px;
+    font-size: 30px;
     font-family: Arial, sans-serif;
     margin-left: -440px;
     position: relative;
-    top: 30px;
-    bottom: ;
+    top: -40px;
+    left: 90px;
+    color: #ffffff;
 }
-
-
+span{
+    font-size: 30px;
+    font-weight: 700;
+}
+.welcome{
+    font-size: 16px;
+}
+.Lorem{
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
 
 p{
     align-items: center;
@@ -126,6 +148,7 @@ p{
     font-family: 'Times New Roman', Times, serif;
     justify-content: center;
     text-align:center;
+
 }
 .iconcontainer{
     display: flex;
@@ -133,7 +156,7 @@ p{
     padding: 10px;
     margin: 20px;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .insta-icon{
     height: 20px;
@@ -162,6 +185,17 @@ p{
     margin-bottom: 20px;
     padding: 10px;
     width: 100%;
-    border: 3px solid;
-    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+h1{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.input-text{
+    background-color: black;
+    padding: 10px;
+    border-start-end-radius: 20px;
+}
+.email{
+    
 }
