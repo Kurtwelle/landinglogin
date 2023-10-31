@@ -25,13 +25,14 @@ body{
 .heading{
     display: flex;
     flex-direction: row;
+    padding-bottom: 15px;
     margin-bottom: 30px;
     position: relative;
     background-color: #d1cfcf;
 }
 :hover.heading{
     background-color: rgb(3, 28, 38);
-    transition: 5;
+    transition: 5s;
 }
 .Dev{
     height: 50px;
@@ -40,6 +41,8 @@ body{
     border-radius: 100%;
     border-color: #fefefe;
     cursor: pointer;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 .nav{
     display: flex;
@@ -68,26 +71,33 @@ nav ul li{
 }
 
 .third-place{
-    margin-left: 800px;
+    margin-left: 700px;
+    margin-top: 10px;
     width: auto;
     height: 45px;
-    background-color: green;
+    background-color: rgb(0, 19, 8);
     border-radius: 10px;
     color: #ffffff;
-    padding: 2px;
+    padding: 5px;
+}
+:hover.third-place{
+    background-color: #d1cfcf;
+    color: black;
+    transition: 5s; background-repeat: repeat;
 }
 
 .label{
-    border: 2px solid;
+    border: none;
     width: 30px;
 }
 
 #options{
-    background-color: #055522;
+    background-color: rgb(0, 19, 8);
     color: #ffffff;
     width: 120px;
     height: 40px;
     border-radius: 5px;
+    border-color: none;
 }
 
 .card{
@@ -104,6 +114,7 @@ nav ul li{
     border: 2px  solid;
     border-color: #fefefe;
     border-radius: 20px;
+    box-shadow: 5px, 5px, 10px rgba(0 0 0 1.5);
 }
 
 .topcontent{
@@ -148,7 +159,6 @@ p{
     font-family: 'Times New Roman', Times, serif;
     justify-content: center;
     text-align:center;
-
 }
 .iconcontainer{
     display: flex;
@@ -184,30 +194,87 @@ p{
     align-items: center;
     margin-bottom: 20px;
     padding: 10px;
+    height: 395px;
     width: 100%;
-    backdrop-filter: blur(10px);
+    filter: blur(-2px);
     border-top-right-radius: 20px;
+    border-bottom-right-radius:20px ;
+    background-image: url(CLIFF.jpg);
+    backdrop-filter: blur(5px);
 }
 h1{
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 20px;
     margin-top: 35px;
 }
 .input-text{
-    background-color: rgb(16, 231, 217);
-    padding: 10px;
-    border-start-end-radius: 20px;
-    margin-bottom: 10px;
+    background-color:#ffffff;
+    border-bottom: 2px solid;
+    border-color: black;
+    border-bottom: 4px solid;
+    padding: 0px;
+    /* border-start-end-radius: 20px; */
+    /* margin-bottom: 10px; */
 }
 
 .Sign{
     border: 2px solid;
-    border
 }
 .email{
     padding: 10px;
     border-top:none;
     border-right:none;
     border-left:none;
-    background::after rgb(16, 231, 217);
+    border-bottom:0px solid;
+}
+.message-icon{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 6px;
+    left: 25px;
+}
+.password-icon{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 6px;
+    left: 0px;
+}
+
+.input-text-2{
+    background-color:#ffffff;
+    border-bottom: 4px solid;
+    border-color: black;
+    padding: 0px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.password{
+    padding: 10px;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom:0px solid;
+}
+.sign-up{
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    height: -4px;
+    border-radius: 20px;
+    background-color: rgb(60, 99, 3);
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+:hover .sign-up{
+    background-color: #022e35;
+    transition: 2s;
+}
+p{
+    font-size: 13px;
 }
