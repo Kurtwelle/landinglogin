@@ -13,7 +13,7 @@ body{
     background: linear-gradient rgba( to top #fefefe, #000000, orange);
     height: 100vh;
     width: 100%;
-    /* background-image: url(CLIFF.jpg); */
+    background-image: url(CLIFF.jpg);
     background-color: #022e35;
     background-size: cover;
     padding: 0px;
@@ -28,7 +28,9 @@ body{
     padding-bottom: 15px;
     margin-bottom: 30px;
     position: relative;
-    background-color: #d1cfcf;
+    background-color:rgba(255, 0, 0, 0.5);1
+    background-image: url(CLIFF.jpg);
+    background-size: cover;
 }
 :hover.heading{
     background-color: rgb(3, 28, 38);
@@ -59,7 +61,7 @@ ul{
     color: none;
 }
 li{
-    color: ;
+    background-color: transparent;
     height: 20px;
 }
 
@@ -196,7 +198,7 @@ p{
     padding: 10px;
     height: 395px;
     width: 100%;
-    filter: blur(-2px);
+    backdrop-filter: blur(4px);
     border-top-right-radius: 20px;
     border-bottom-right-radius:20px ;
     background-image: url(CLIFF.jpg);
@@ -226,6 +228,7 @@ h1{
     border-right:none;
     border-left:none;
     border-bottom:0px solid;
+
 }
 .message-icon{
     width: 20px;
